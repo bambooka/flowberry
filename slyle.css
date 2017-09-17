@@ -8,6 +8,10 @@
     justify-content: flex-end;
 }
 
-.row-md-12 .col-md-4 span {
+.row-md-12 div:nth-child(2) span {
     font-size: 20px;
+}
+
+.row-md-12 div:nth-child(3) span:last-child {
+    font-size: 10px;
 }
