@@ -37,6 +37,6 @@
     box-shadow: none;
 }
 
-.container-fluid .panel-body {
-
+.container-fluid .panel-body button {
+   margin-right: 5px;
 }
