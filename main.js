@@ -1,5 +1,6 @@
 $('.slider').slick({
     autoplay: true,
-    dots: true
+    dots: true,
+    arrows: false
     }
 )
