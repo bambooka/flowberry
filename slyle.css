@@ -45,10 +45,17 @@
 
 .carousel {
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
 }
 
 .slider {
     max-width: 600px;
     max-height: 400px;
+}
+
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
 }
