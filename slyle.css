@@ -41,3 +41,14 @@
 .container-fluid .panel-body button {
    margin-right: 5px;
 }
+ /* carousel */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    max-width: 600px;
+    max-height: 400px;
+}
