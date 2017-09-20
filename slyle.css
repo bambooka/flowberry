@@ -92,17 +92,22 @@
     align-items: center;
     width: 200px;
     height: 200px;
-    border: 3px double #1d4088;
+    border: 10px double #1d4088;
     margin: 10px;
     background-size: cover;
-    border-radius: 5%;
+    border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* background: url(../images/bg/banner.png); */
+    background-size: cover;
 }
 
 .goods div h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #00264a;
+    text-decoration: none;
+    font-family: 'Neucha', cursive;
 }
 
 
