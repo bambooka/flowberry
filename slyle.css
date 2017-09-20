@@ -92,12 +92,7 @@
     align-items: center;
     width: 200px;
     height: 200px;
-    border: 10px double #1d4088;
     margin: 10px;
-    background-size: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    /* background: url(../images/bg/banner.png); */
     background-size: cover;
 }
 
