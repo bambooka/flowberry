@@ -86,25 +86,6 @@
     align-items: center;
 }
 
-.goods div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    background-size: cover;
-}
-
-.goods div h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #00264a;
-    text-decoration: none;
-    font-family: 'Neucha', cursive;
-}
-
 
 /*
 font-family: 'Kaushan Script', cursive;
