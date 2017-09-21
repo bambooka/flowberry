@@ -121,6 +121,10 @@
 }
 
 /* footer */
+.horizontal-menu {
+    display: flex;
+    flex-flow: row nowrap;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
