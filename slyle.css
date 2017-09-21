@@ -101,12 +101,14 @@
 }
 
 .goods-items img {
-    border: 5px solid #9acfea;
+    border: 5px solid #8c8c8c;
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(0,0,0,0.8);
 }
 
 .goods-items h3 {
     width: 200px;
-    font-family: 'Neucha', cursive;
+    font-family: 'Rubik', sans-serif;
     position: relative;
     z-index: 100;
     top: -50px;
