@@ -124,6 +124,12 @@
 .horizontal-menu {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-menu a {
+    margin-right: 10px;
 }
 /*
 font-family: 'Kaushan Script', cursive;
