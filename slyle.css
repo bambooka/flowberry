@@ -131,6 +131,13 @@
 .horizontal-menu a {
     margin-right: 10px;
 }
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
