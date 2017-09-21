@@ -89,12 +89,15 @@
 .goods div {
     width: 25%;
     height: 25%;
-    border: 1px solid black;
     margin: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.goods-items img {
+    border: 5px solid #9acfea;
 }
 /*
 font-family: 'Kaushan Script', cursive;
