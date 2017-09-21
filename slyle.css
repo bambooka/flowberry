@@ -86,7 +86,12 @@
     align-items: center;
 }
 
-
+.goods div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
