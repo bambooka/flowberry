@@ -121,6 +121,7 @@
 }
 
 /* footer */
+
 .horizontal-menu {
     display: flex;
     flex-flow: row nowrap;
@@ -135,6 +136,17 @@
 .info {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts p {
+    margin: 3px;
+}
+
+.socio {
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
