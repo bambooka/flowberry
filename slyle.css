@@ -119,6 +119,63 @@
     justify-content: center;
     align-items: center;
 }
+
+/* footer */
+
+.horizontal-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-menu a {
+    margin-right: 10px;
+    font-size: 15px;
+    color: #3c3c3c;
+}
+
+.horizontal-menu a:hover {
+    color: #2A4887;
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts p {
+    margin: 3px;
+}
+
+.socio {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.socio span {
+    margin: 5px;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-md-12 div:nth-child(2) span {
+    font-size: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
