@@ -131,6 +131,12 @@
 
 .horizontal-menu a {
     margin-right: 10px;
+    font-size: 15px;
+}
+
+.horizontal-menu a:hover {
+    color: #2A4887;
+    text-decoration: none;
 }
 
 .info {
