@@ -28,8 +28,12 @@
     list-style-type: none;
     margin-right: 10px;
     color: #761c19;
-    font-size: 25px;
+    font-size: 1.2em;
     font-family: 'Neucha', cursive;
+}
+
+.row .panel ul a:last-child li {
+    margin-right: 0px;
 }
 
 row .panel ul li:hover {
