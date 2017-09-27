@@ -12,6 +12,12 @@
     border-bottom: 3px double #761c19;
 }
 
+.row div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .row div:last-child .panel {
     padding: 10px;
     border-top: 3px double #761c19;
