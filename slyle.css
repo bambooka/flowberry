@@ -52,8 +52,15 @@ row .panel ul li:hover {
 /* style for sm/xs */
 
 .mini {
+    height: 300px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: column wrap;
+}
+
+.mini div {
+    margin-top: 5px;
 }
 
 .mini div:first-child {
@@ -63,12 +70,14 @@ row .panel ul li:hover {
 }
 
 .mini div:nth-child(2) {
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mini div:last-child {
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +96,12 @@ row .panel ul li:hover {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.mini .panel ul li {
+    font-size: 1.7em;
+    text-decoration: none;
+    text-transform: none;
 }
 
 /* button of navigation */
