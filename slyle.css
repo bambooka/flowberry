@@ -20,15 +20,20 @@
 .row .panel ul {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .row .panel ul li {
     text-decoration: none;
     list-style-type: none;
-    margin-right: 5px;
+    margin-right: 10px;
     color: #761c19;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Neucha', cursive;
+}
+
+row .panel ul li:hover {
+    color: #449d44;
 }
 /* button of navigation */
 
