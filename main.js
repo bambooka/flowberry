@@ -36,6 +36,28 @@ $('.slider').slick({
                 slidesToShow: 1,
                 variableWidth: true
             }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 1,
+                variableWidth: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 1,
+                variableWidth: false,
+                dots: false
+            }
         }
     ]
 
