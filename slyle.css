@@ -74,6 +74,21 @@ row .panel ul li:hover {
     align-items: center;
 }
 
+.mini div:nth-child(2) .panel {
+    border: none;
+}
+
+.mini div:nth-child(3) .panel {
+    border: none;
+}
+
+.mini .panel ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /* button of navigation */
 
 .container-fluid .panel.noborder {
