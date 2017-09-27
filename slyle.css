@@ -6,7 +6,17 @@
     align-items: center;
 }
 
+.row div:first-child .panel {
+    padding: 10px;
+    border-top: 3px double #761c19;
+    border-bottom: 3px double #761c19;
+}
 
+.row div:last-child .panel {
+    padding: 10px;
+    border-top: 3px double #761c19;
+    border-bottom: 3px double #761c19;
+}
 .row .panel ul {
     display: flex;
     flex-flow: row nowrap;
