@@ -62,6 +62,18 @@ row .panel ul li:hover {
     align-items: center;
 }
 
+.mini div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* button of navigation */
 
 .container-fluid .panel.noborder {
