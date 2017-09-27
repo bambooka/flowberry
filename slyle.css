@@ -1,4 +1,7 @@
 /* style for panel with logo */
+
+/* style for lg/md */
+
 .row {
     display: flex;
     flex-flow: row nowrap;
@@ -45,6 +48,20 @@
 row .panel ul li:hover {
     color: #449d44;
 }
+
+/* style for sm/xs */
+
+.mini {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.mini div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* button of navigation */
 
 .container-fluid .panel.noborder {
