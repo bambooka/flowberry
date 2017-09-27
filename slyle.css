@@ -125,40 +125,9 @@ row .panel ul li:hover {
 }
  /* carousel */
 
-.carousel-description {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+.carousel {
+    margin-top: 20px;
 }
-
-.slider {
-    max-width: 600px;
-    max-height: 400px;
-}
-
-.description {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.description h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 80px;
-    color: #1d4088;
-}
-
-.description h4, h2 {
-    font-family: 'Neucha', cursive;
-    font-size: 50px;
-}
-
-.description h4 {
-    font-size: 25px;
-}
-
 /* goods */
 
 .goods-panel {
