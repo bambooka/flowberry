@@ -1,25 +1,107 @@
 /* style for panel with logo */
-.navbar {
-    height: 100px;
-}
 
-.navbar.noborder {
-    border: none;
-    box-shadow: none;
-}
+/* style for lg/md */
 
-.row-md-12 {
+.row {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.row-md-12 div:nth-child(2) span {
-    font-size: 20px;
+.row div:first-child .panel {
+    padding: 10px;
+    border-top: 3px double #761c19;
+    border-bottom: 3px double #761c19;
 }
 
-.row-md-12 div:nth-child(3) span:last-child {
-    font-size: 10px;
+.row div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div:last-child .panel {
+    padding: 10px;
+    border-top: 3px double #761c19;
+    border-bottom: 3px double #761c19;
+}
+.row .panel ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.row .panel ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 10px;
+    color: #761c19;
+    font-size: 1.2em;
+    font-family: 'Neucha', cursive;
+}
+
+.row .panel ul a:last-child li {
+    margin-right: 0px;
+}
+
+row .panel ul li:hover {
+    color: #449d44;
+}
+
+/* style for sm/xs */
+
+.mini {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.mini div {
+    margin-top: 5px;
+}
+
+.mini div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini div:nth-child(2) {
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini div:last-child {
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini div:nth-child(2) .panel {
+    border: none;
+}
+
+.mini div:nth-child(3) .panel {
+    border: none;
+}
+
+.mini .panel ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini .panel ul li {
+    font-size: 1.7em;
+    text-decoration: none;
+    text-transform: none;
 }
 
 /* button of navigation */
@@ -175,7 +257,7 @@
     justify-content: center;
     align-items: center;
 }
-}
+
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
