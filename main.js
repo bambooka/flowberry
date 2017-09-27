@@ -4,7 +4,7 @@ $('.slider').slick({
     arrows: false,
     slidesToShow: 1,
     centerMode: false,
-    variableWidth: true,
+    variableWidth: false,
     responsive: [
         {
             breakpoint: 3000,
@@ -12,26 +12,29 @@ $('.slider').slick({
                 arrows: false,
                 centerMode: true,
                 centerPadding: '10px',
-                slidesToShow: 3
+                slidesToShow: 3,
+                variableWidth: true
             }
         },
         {
-            breakpoint: 1500,
+            breakpoint: 1440,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '10px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                variableWidth: true
             }
         },
 
         {
-            breakpoint: 1300,
+            breakpoint: 1025,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '10px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                variableWidth: true
             }
         }
     ]
