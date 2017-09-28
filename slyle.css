@@ -125,38 +125,78 @@ row .panel ul li:hover {
 }
  /* carousel */
 
-.carousel-description {
+/* style for carousel lg/md */
+
+.carousel {
+    margin: 20px;
+    border-top: 2px solid #b2dba1;
+    padding: 10px;
+}
+
+.slide {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    margin: 35px;
+    box-shadow: 0 0 10px rgba(0,100,0,0.5);
 }
 
-.slider {
-    max-width: 600px;
-    max-height: 400px;
-}
-
-.description {
+.carousel .panel {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
-.description h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 80px;
-    color: #1d4088;
-}
-
-.description h4, h2 {
+.carousel .panel h4 {
     font-family: 'Neucha', cursive;
+}
+
+.carousel .panel h2 {
+    font-family: 'Neucha', cursive;
+    font-weight: bold;
+    color: #66512c;
     font-size: 50px;
 }
 
-.description h4 {
-    font-size: 25px;
+@media screen and (width: 1440px) {
+    .slide {
+        margin-right: 50px;
+        margin-left: 50px;
+        box-shadow: none;
+    }
+}
+
+/* style for carousel-mini xs/sm */
+
+.carousel-mini {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.carousel-mini  .slider .slide {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.carousel-mini .panel {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.carousel-mini .panel h2 {
+    font-family: 'Neucha', cursive;
+    font-weight: bold;
+    color: #66512c;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.carousel-mini .panel h4 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* goods */
