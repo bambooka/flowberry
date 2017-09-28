@@ -171,7 +171,13 @@ row .panel ul li:hover {
     color: #66512c;
     font-size: 1.5em;
 }
-
+ @media screen and (width: 1440px) {
+     .slide {
+         margin-right: 50px;
+         margin-left: 50px;
+         box-shadow: none;
+     }
+ }
 /* goods */
 
 .goods-panel {
