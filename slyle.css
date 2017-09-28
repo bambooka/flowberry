@@ -164,17 +164,27 @@ row .panel ul li:hover {
     display: flex;
     flex-flow: column wrap;
 }
-.carousel-mini panel {
+
+
+.carousel-mini .panel {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     align-items: center;
 }
 .carousel-mini .panel h2 {
     font-family: 'Neucha', cursive;
     font-weight: bold;
     color: #66512c;
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
+.carousel-mini .panel h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
  @media screen and (width: 1440px) {
      .slide {
          margin-right: 50px;
