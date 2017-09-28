@@ -17,7 +17,7 @@ $('.slider').slick({
             }
         },
         {
-            breakpoint: 1440,
+            breakpoint: 1441,
             settings: {
                 arrows: false,
                 centerMode: true,
@@ -55,7 +55,18 @@ $('.slider').slick({
                 centerMode: true,
                 centerPadding: '10px',
                 slidesToShow: 1,
-                variableWidth: false,
+                variableWidth: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 320,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 1,
+                variableWidth: true,
                 dots: false
             }
         }
