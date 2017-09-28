@@ -158,6 +158,14 @@ row .panel ul li:hover {
     font-size: 50px;
 }
 
+@media screen and (width: 1440px) {
+    .slide {
+        margin-right: 50px;
+        margin-left: 50px;
+        box-shadow: none;
+    }
+}
+
 /* style for carousel-mini xs/sm */
 
 .carousel-mini {
@@ -165,6 +173,12 @@ row .panel ul li:hover {
     flex-flow: column wrap;
 }
 
+.carousel-mini  .slider .slide {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .carousel-mini .panel {
     display: flex;
@@ -185,13 +199,6 @@ row .panel ul li:hover {
     margin-right: 20px;
 }
 
- @media screen and (width: 1440px) {
-     .slide {
-         margin-right: 50px;
-         margin-left: 50px;
-         box-shadow: none;
-     }
- }
 /* goods */
 
 .goods-panel {
