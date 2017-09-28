@@ -164,7 +164,11 @@ row .panel ul li:hover {
     display: flex;
     flex-flow: column wrap;
 }
-
+.carousel-mini panel {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
 .carousel-mini .panel h2 {
     font-family: 'Neucha', cursive;
     font-weight: bold;
