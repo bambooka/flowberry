@@ -244,8 +244,40 @@ row .panel ul li:hover {
 
 .goods div .row div:first-child {
     flex-flow: column;
+    background: #A61300;
 }
 
+.goods div .row div:nth-child(2){
+
+}
+
+.goods div .row div:nth-child(2) {
+    background: #BF8230;
+}
+
+.goods div:nth-child(2) .row div:nth-child(1) {
+    background: #6F9C00;
+}
+
+.goods div:nth-child(2) .row div:nth-child(2) {
+    background: #5A016D;
+}
+
+.goods div:nth-child(2) .row div:nth-child(3) {
+    background: #071A71;
+}
+
+.goods div:nth-child(3) .row div:nth-child(1) {
+    background: #FFE100;
+}
+
+.goods div:nth-child(3) .row div:nth-child(2){
+    background: #FFAD40;
+}
+
+.goods div:nth-child(3) .row div:nth-child(3) {
+    background: #7F0055;
+}
     /* footer */
 
 .horizontal-menu {
