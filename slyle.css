@@ -236,18 +236,7 @@ row .panel ul li:hover {
     width: 100%;
 }
 
-.goods div .row img {
-    width: inherit;
-    height: inherit;
-}
 
-.goods div .row .header-goods{
-    position: absolute;
-    top: 150px;
-    left: 130px;
-    display: flex;
-    flex-flow: column;
-}
 /* footer */
 
 .horizontal-menu {
