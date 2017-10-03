@@ -204,6 +204,7 @@ row .panel ul li:hover {
 .goods div .row {
     display: flex;
     flex-flow: column;
+    padding: 15px;
 }
 
 .goods div:nth-child(2) .row {
@@ -216,7 +217,7 @@ row .panel ul li:hover {
 }
 
 .goods div:first-child .row div:first-child {
-    height: 300px;
+    height: 310px;
     width: 100%;
 }
 
@@ -233,6 +234,19 @@ row .panel ul li:hover {
 .goods div:nth-child(3) .row div {
     height: 150px;
     width: 100%;
+}
+
+.goods div .row img {
+    width: inherit;
+    height: inherit;
+}
+
+.goods div .row .header-goods{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    display: flex;
+    flex-flow: column;
 }
 /* footer */
 
