@@ -240,15 +240,19 @@ row .panel ul li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,122,0.5)
+}
+
+.goods div .row div p {
+    color: white;
+    font-size: 2em;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
 }
 
 .goods div .row div:first-child {
     flex-flow: column;
     background: #A61300;
-}
-
-.goods div .row div:nth-child(2){
-
 }
 
 .goods div .row div:nth-child(2) {
