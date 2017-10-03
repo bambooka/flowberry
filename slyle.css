@@ -236,8 +236,17 @@ row .panel ul li:hover {
     width: 100%;
 }
 
+.goods div .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-/* footer */
+.goods div .row div:first-child {
+    flex-flow: column;
+}
+
+    /* footer */
 
 .horizontal-menu {
     display: flex;
