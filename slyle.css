@@ -243,11 +243,23 @@ row .panel ul li:hover {
     box-shadow: 0 0 10px rgba(0,0,122,0.5)
 }
 
+.goods div .row div:hover {
+    opacity: 0.8;
+    border: 2px double #7F0055;
+}
+
 .goods div .row div p {
     color: white;
     font-size: 2em;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
+}
+
+.goods div .row div p:hover {
+    color: #a6e1ec;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .goods div .row div:first-child {
