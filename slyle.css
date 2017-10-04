@@ -417,6 +417,17 @@ row .panel ul li:hover {
 .footer .row div:first-child ul li:hover {
     color: #7F0055;
 }
+
+.footer .row div:last-child {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.footer .row div:last-child div:first-child {
+    display: flex;
+    flex-flow: column;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
