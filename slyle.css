@@ -201,48 +201,188 @@ row .panel ul li:hover {
 
 /* goods */
 
-.goods-panel {
-    padding: 20px;
-}
-
-.goods {
+.goods div .row {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column;
+    padding: 15px;
 }
 
-.goods div {
-    width: 25%;
-    height: 25%;
-    margin: 10px;
+.goods div:nth-child(2) .row {
+    width: 100%;
+}
+
+.goods div .row div {
+    margin-bottom: 10px;
+}
+
+.goods div:first-child .row div:first-child {
+    height: 310px;
+    width: 100%;
+}
+
+.goods div:first-child .row div:last-child {
+    height: 150px;
+    width: 100%
+}
+
+.goods div:nth-child(2) .row div {
+    height: 150px;
+    width: 100%;
+}
+
+.goods div:nth-child(3) .row div {
+    height: 150px;
+    width: 100%;
+}
+
+.goods div .row div {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,122,0.5);
 }
 
-.goods-items img {
-    border: 5px solid #8c8c8c;
-    border-radius: 5px;
-    box-shadow: 0 0 0 rgba(0,0,0,0.8);
+.goods div .row div:hover {
+    opacity: 0.8;
+    border: 2px double #7F0055;
 }
 
-.goods-items h3 {
-    width: 200px;
+.goods div .row div p {
+    color: darkred;
+    font-size: 2em;
     font-family: 'Rubik', sans-serif;
-    position: relative;
-    z-index: 100;
-    top: -50px;
-    background: #000;
-    opacity: .6;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-transform: uppercase;
 }
 
-/* footer */
+.goods div .row div a:hover {
+    text-decoration: none;
+}
+
+.goods div .row div p:hover {
+    color: orangered;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.goods div .row div:first-child {
+    flex-flow: column;
+    background: #FFF5EE;
+}
+
+.goods div .row div:nth-child(2) {
+    background: #E6E6FA;
+}
+
+.goods div:nth-child(2) .row div:nth-child(1) {
+    background: #B0E0E6;
+}
+
+.goods div:nth-child(2) .row div:nth-child(2) {
+    background: #FAFAD2;
+}
+
+.goods div:nth-child(2) .row div:nth-child(3) {
+    background: #F5DEB3;
+}
+
+.goods div:nth-child(3) .row div:nth-child(1) {
+    background: #FFC0CB;
+}
+
+.goods div:nth-child(3) .row div:nth-child(2){
+    background:#FFE4C4;
+}
+
+.goods div:nth-child(3) .row div:nth-child(3) {
+    background: #B0E2FF;
+}
+
+/* goods-mini for sm/xs */
+
+.goods-mini {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.goods-mini div:nth-child(2) .row {
+    width: 100%;
+}
+
+.goods-mini div .row {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.goods-mini div .row div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,122,0.5);
+}
+
+.goods-mini div .row div a {
+    text-decoration: none;
+}
+
+.goods-mini div .row div p {
+    color: darkred;
+    font-size: 2em;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.goods-mini div .row div p:hover {
+    color: orangered;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.goods-mini div .row div:first-child {
+    flex-flow: column;
+    background: #FFF5EE;
+}
+
+.goods-mini div:first-child .row div:first-child p{
+    font-size: 1.5em;
+}
+
+.goods-mini div .row div:nth-child(2) {
+    background: #E6E6FA;
+}
+
+.goods-mini div:nth-child(2) .row div:nth-child(1) {
+    background: #B0E0E6;
+}
+
+.goods-mini div:nth-child(2) .row div:nth-child(2) {
+    background: #FAFAD2;
+}
+
+.goods-mini div:nth-child(2) .row div:nth-child(3) {
+    background: #F5DEB3;
+}
+
+.goods-mini div:nth-child(3) .row div:nth-child(1) {
+    background: #FFC0CB;
+}
+
+.goods-mini div:nth-child(3) .row div:nth-child(2){
+    background: #FFE4C4;
+}
+
+.goods-mini div:nth-child(3) .row div:nth-child(3) {
+    background: #B0E2FF;
+}
+
+    /* footer */
 
 .horizontal-menu {
     display: flex;
