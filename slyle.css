@@ -397,6 +397,25 @@ row .panel ul li:hover {
 .footer .row div:first-child ul {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.footer .row div:first-child ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    color: darkred;
+}
+
+.footer .row div:first-child ul a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .row div:first-child ul li:hover {
+    color: #7F0055;
 }
 /*
 font-family: 'Kaushan Script', cursive;
