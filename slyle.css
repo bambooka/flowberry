@@ -295,11 +295,47 @@ row .panel ul li:hover {
     background: #7F0055;
 }
 
-/* goods for sm/xs */
+/* goods-mini for sm/xs */
 
 .goods-mini {
     display: flex;
     flex-flow: column wrap;
+}
+
+.goods-mini div:nth-child(2) .row {
+    width: 100%;
+}
+
+.goods-mini div .row {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.goods-mini div .row div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.goods-mini div:first-child .row div:first-child {
+    height: 310px;
+    width: 100%;
+}
+
+.goods-mini div:first-child .row div:last-child {
+    height: 150px;
+    width: 100%
+}
+
+.goods div:nth-child(2) .row div {
+    height: 150px;
+    width: 100%;
+}
+
+.goods div:nth-child(3) .row div {
+    height: 150px;
+    width: 100%;
 }
 
     /* footer */
