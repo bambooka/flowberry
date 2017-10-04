@@ -1,6 +1,6 @@
 /* style for panel with logo */
 
-/* style for lg/md */
+/* HEADER lg/md */
 
 .row {
     display: flex;
@@ -49,7 +49,7 @@ row .panel ul li:hover {
     color: #449d44;
 }
 
-/* style for sm/xs */
+/* HEADER for sm/xs */
 
 .mini {
     height: 300px;
@@ -104,7 +104,7 @@ row .panel ul li:hover {
     text-transform: none;
 }
 
-/* button of navigation */
+/* BUTTON OG NAVIGATION */
 
 .container-fluid .panel.noborder {
     border: none;
@@ -123,9 +123,9 @@ row .panel ul li:hover {
 .container-fluid .panel-body button {
    margin-right: 5px;
 }
- /* carousel */
 
-/* style for carousel lg/md */
+
+/* CAROUSRL lg/md */
 
 .carousel {
     margin: 20px;
@@ -166,7 +166,7 @@ row .panel ul li:hover {
     }
 }
 
-/* style for carousel-mini xs/sm */
+/* CAROUSEL-MINI xs/sm */
 
 .carousel-mini {
     display: flex;
@@ -199,7 +199,7 @@ row .panel ul li:hover {
     margin-right: 20px;
 }
 
-/* goods */
+/* GOODS */
 
 .goods div .row {
     display: flex;
@@ -298,7 +298,7 @@ row .panel ul li:hover {
     background: #B0E2FF;
 }
 
-/* goods-mini for sm/xs */
+/* GOODS-MINI for sm/xs */
 
 .goods-mini {
     display: flex;
@@ -384,59 +384,6 @@ row .panel ul li:hover {
 
     /* footer */
 
-.horizontal-menu {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.horizontal-menu a {
-    margin-right: 10px;
-    font-size: 15px;
-    color: #3c3c3c;
-}
-
-.horizontal-menu a:hover {
-    color: #2A4887;
-    text-decoration: none;
-}
-
-.info {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.contacts p {
-    margin: 3px;
-}
-
-.socio {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.socio span {
-    margin: 5px;
-    height: 50px;
-    font-size: 15px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.row-md-12 div:nth-child(2) span {
-    font-size: 15px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
 
 /*
 font-family: 'Kaushan Script', cursive;
