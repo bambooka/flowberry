@@ -392,6 +392,7 @@ row .panel ul li:hover {
 .footer .row div:first-child {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .footer .row div:first-child ul {
@@ -427,6 +428,33 @@ row .panel ul li:hover {
 .footer .row div:last-child div:first-child {
     display: flex;
     flex-flow: column;
+}
+
+.footer .row div:last-child div:first-child p {
+    margin: 2px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+}
+
+.footer .row div:last-child div:nth-child(2){
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+.footer .row div:last-child div:nth-child(2) ul li {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.footer .row div:last-child div:nth-child(2) ul a:hover {
+    text-decoration: none;
+}
+
+.footer .row div:last-child div:nth-child(2) ul li:hover {
+    color: darkred;
 }
 /*
 font-family: 'Kaushan Script', cursive;
