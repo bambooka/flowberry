@@ -384,7 +384,20 @@ row .panel ul li:hover {
 
     /* footer */
 
+.footer .row {
+    display: flex;
+    flex-flow: column;
+}
 
+.footer .row div:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footer .row div:first-child ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
