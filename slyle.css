@@ -489,6 +489,18 @@ row .panel ul li:hover {
     flex-flow: row;
     align-items: flex-start;
 }
+
+.footer-mini .row div:first-child a p{
+    border-radius: 5%;
+    background-color: #9acfea;
+    color: black;
+}
+
+.footer-mini .row div:first-child a p:hover {
+    background-color: darkblue;
+    color:white;
+}
+
 .footer-mini .row div:nth-child(2) {
     display: flex;
     flex-flow: row;
