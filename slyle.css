@@ -484,6 +484,11 @@ row .panel ul li:hover {
 }
 
 /* footer for sm/xs */
+.footer-mini .row {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
 .footer-mini .row div:nth-child(2) {
     display: flex;
     flex-flow: row;
@@ -504,7 +509,7 @@ row .panel ul li:hover {
 .footer-mini .row div:nth-child(2) ul li{
     list-style-type: none;
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     font-family: 'Rubik', sans-serif;
     margin-top: 8px;
 }
