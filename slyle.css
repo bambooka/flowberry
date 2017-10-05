@@ -482,6 +482,32 @@ row .panel ul li:hover {
     color: white;
     background-color: #00264a;
 }
+
+/* footer for sm/xs */
+.footer-mini .row div:nth-child(2) {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+.footer-mini .row div:nth-child(2) ul {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.footer-mini .row div:nth-child(2) ul a:hover {
+    text-decoration: none;
+    color:darkred;
+}
+
+.footer-mini .row div:nth-child(2) ul li{
+    list-style-type: none;
+    color: black;
+    font-size: 0.8em;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 8px;
+}
 /*
 font-family: 'Kaushan Script', cursive;
 font-family: 'Rubik', sans-serif;
