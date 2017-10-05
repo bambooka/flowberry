@@ -416,7 +416,7 @@ row .panel ul li:hover {
 }
 
 .footer .row div:first-child ul li:hover {
-    color: #7F0055;
+    color: black;
 }
 
 .footer .row div:last-child {
@@ -454,6 +454,28 @@ row .panel ul li:hover {
 }
 
 .footer .row div:last-child div:nth-child(2) ul li:hover {
+    color: darkred;
+}
+
+.footer .row div:last-child div:nth-child(3) {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.footer .row div:last-child div:nth-child(3) a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+.footer .row div:last-child div:nth-child(3) a p {
+    color: black;
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+
+.footer .row div:last-child div:nth-child(3) a p:hover {
     color: darkred;
 }
 /*
