@@ -473,10 +473,14 @@ row .panel ul li:hover {
     font-size: 1em;
     font-family: 'Rubik', sans-serif;
     font-weight: 200;
+    border-radius: 5%;
+    background-color: #9acfea;
+    opacity: .8;
 }
 
 .footer .row div:last-child div:nth-child(3) a p:hover {
-    color: darkred;
+    color: white;
+    background-color: #00264a;
 }
 /*
 font-family: 'Kaushan Script', cursive;
